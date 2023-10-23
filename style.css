@@ -1,0 +1,128 @@
+*{
+  margin:0 ;
+  padding: 0;
+}
+.container-fluid{
+background-color: lavender;
+}
+.card{
+ margin-top: 20px;
+ margin-left: 2px;
+ width: 50%;
+ height: 50%;
+ padding: 40px 50px;
+ background: bisque;
+ box-shadow: 10px 20px 26px rgb(240, 231, 231),-10px -20px 26px  rgb(240, 231, 231);
+}
+.form-control{
+color: gainsboro;
+}
+.card-two{
+padding: 40px 50px;
+background;
+box-shadow: 10px 20px 26px rgb(240, 231, 231),-10px -20px 26px  rgb(240, 231, 231);
+
+}
+         
+.btn-grad{
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  /* margin: 10px;
+  padding: 10px 20px; */
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.name{
+  margin-left: -2px ;
+}
+.age{
+margin-left: -2px ;
+}
+.gender{
+margin-left: -2px ;
+}
+.pincode{
+margin-left: -2px ;
+}
+
+.detail{
+ 
+  text-transform: uppercase;
+  
+  margin-top: 2px;
+}
+@media screen and (max-width:1024px){
+.card{
+  width: 80%;
+}
+.detail{
+margin-left: 10px;
+}
+}
+@media screen and (max-width:786px){
+.detail{
+  margin-left: -10px;
+}
+.card-two{
+  width: 80%;
+}
+.able{
+  width: 70%;
+}
+}
+@media screen and (max-width:426px){
+.card{
+  width: 90%;
+  margin-left: 2px;
+}
+.detail{
+  margin-left: -15px;
+}
+.btn-grad{
+  padding: 5px 12px;
+}
+}
+@media screen and (max-width:320px){
+.card{
+  width: 100%;
+}
+.detail{
+  margin-left: 2px;
+  font-size: -21px;
+}
+.btn-grad{
+  padding: 5px 12px;
+}
+}
